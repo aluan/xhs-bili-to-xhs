@@ -5,7 +5,7 @@
 
 ## 前置条件
 - 已安装：`yt-dlp`、`ffmpeg`
-- 已创建 faster-whisper 虚拟环境：`/Users/aluan/.openclaw/workspace/.venv_faster_whisper`
+- 已创建 faster-whisper 虚拟环境：`/Users/aluan/.openclaw/workspace/.venv_faster_whisper`（默认使用 medium 模型）
 - 小红书账号已登录（可通过扫码登录）
 
 ## 步骤

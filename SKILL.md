@@ -40,5 +40,5 @@ description: Convert a Bilibili video link (BV or URL) into a tiny-model transcr
 - 详细流程见：`references/workflow.md`
 
 ## Resources
-- `scripts/transcribe_bili_tiny.py`：使用 faster-whisper tiny 转写
+- `scripts/transcribe_bili_tiny.py`：使用 faster-whisper medium 转写
 - `assets/xhs_template.txt`：小红书爆款长文模板

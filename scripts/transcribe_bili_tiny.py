@@ -60,7 +60,7 @@ def main():
 
     script = (
         "from faster_whisper import WhisperModel\n"
-        "model = WhisperModel('tiny', device='cpu', compute_type='int8')\n"
+        "model = WhisperModel('medium', device='cpu', compute_type='int8')\n"
         f"segments, info = model.transcribe('{audio_path}', language='zh')\n"
         "text = ''.join(seg.text for seg in segments)\n"
         f"open('{output_txt}','w',encoding='utf-8').write(text.strip())\n"
